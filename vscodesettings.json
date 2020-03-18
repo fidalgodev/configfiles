@@ -2,12 +2,11 @@
   "terminal.integrated.shell.osx": "/bin/zsh",
   "editor.fontFamily": "Dank Mono, Operator Mono",
   "editor.minimap.enabled": false,
-  "editor.rulers": [
-    80
-  ],
-  "extensions.ignoreRecommendations": false,
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
   "editor.fontSize": 18,
+  // "editor.fontSize": 20,
+  // "editor.lineHeight":0,
+  "editor.lineHeight":30,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.tabSize": 2,
   "editor.fontLigatures": true,
@@ -40,7 +39,7 @@
   // },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
-    // "source.fixAll.stylelint": true
+    "source.fixAll.stylelint": true
   },
   "workbench.iconTheme": "material-icon-theme",
   "terminal.integrated.rendererType": "dom",
@@ -53,8 +52,8 @@
   "editor.gotoLocation.multipleImplementations": "goto",
   "editor.gotoLocation.multipleReferences": "goto",
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
-  "editor.lineHeight": 30,
   "terminal.integrated.fontFamily": "Dank Mono",
+  "workbench.colorTheme": "One Dark Pro",
+  "breadcrumbs.enabled": true,
   "workbench.fontAliasing": "auto",
-  "workbench.colorTheme": "CodeSandbox",
 }
