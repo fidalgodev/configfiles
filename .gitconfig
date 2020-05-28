@@ -1,6 +1,6 @@
 [user]
 	name = Pedro Fidalgo
-	email = pedrofidalgo7@gmail.com
+	email = "myemail"
 [merge]
 	tool = vscode
 [mergetool "vscode"]
