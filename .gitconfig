@@ -1,11 +1,2 @@
-[user]
-	name = Pedro Fidalgo
-	email = "myemail"
-[merge]
-	tool = vscode
-[mergetool "vscode"]
-	cmd = "code --wait "
-[diff]
-	tool = vscode
-[difftool "vscode"]
-	cmd = "code --wait --diff  "
+[includeIf "gitdir:~/personal/"]
+  path = .gitconfig-personal
