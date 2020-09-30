@@ -2,10 +2,12 @@
   name = Pedro Fidalgo
   email = pedrofidalgo7@gmail.com
 [merge]
-	tool = vscode
+  tool = vscode
 [mergetool "vscode"]
-	cmd = "code --wait "
+  cmd = "code --wait "
 [diff]
-	tool = vscode
+  tool = vscode
 [difftool "vscode"]
-	cmd = "code --wait --diff  "
+  cmd = "code --wait --diff  "
+[pull]
+  rebase = false
