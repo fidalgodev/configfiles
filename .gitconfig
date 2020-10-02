@@ -1,2 +1,7 @@
+[includeIf "gitdir:~/dunelm/"]
+  path = .gitconfig-dunelm
+[includeIf "gitdir:~/mindera/"]
+  path = .gitconfig-mindera
 [includeIf "gitdir:~/personal/"]
   path = .gitconfig-personal
+
