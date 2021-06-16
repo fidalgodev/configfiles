@@ -1,20 +1,13 @@
-Host bitbucket_dunelm.org
+Host bitbucket.org
   HostName bitbucket.org
   User git
-  IdentityFile ~/.ssh/id_rsa-dunelm
-  AddKeysToAgent yes
-  UseKeychain yes
-  IdentitiesOnly yes
-
-Host bitbucket_mindera.org
-  HostName bitbucket.org
-  User git
-  IdentityFile ~/.ssh/id_rsa-mindera
+  IdentityFile ~/.ssh/dunelm
   AddKeysToAgent yes
   UseKeychain yes
   IdentitiesOnly yes
 
 Host *
+  IdentityFile ~/.ssh/personal
   AddKeysToAgent yes
   UseKeychain yes
-  IdentityFile ~/.ssh/id_rsa
+  IdentitiesOnly yes
