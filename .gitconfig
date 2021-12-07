@@ -1,0 +1,13 @@
+[user]
+	name = Pedro Fidalgo
+	email = pedrofidalgo7@gmail.com
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = "code --wait "
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = "code --wait --diff  "
+[pull]
+	rebase = false
