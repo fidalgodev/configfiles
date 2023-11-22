@@ -1,5 +1,13 @@
-#PLUGINS
-plugins=(git)
+# Path to your oh-my-zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
+# OH MY ZSH THEMES
+ZSH_THEME=""
+
+# PLUGINS
+plugins=(git zsh-autosuggestions)
+
+source $ZSH/oh-my-zsh.sh
 
 # ALIAS
 alias zshconfig="code ~/.zshrc"
@@ -34,3 +42,8 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
+
+# PYENV
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init --path)"
+fi
