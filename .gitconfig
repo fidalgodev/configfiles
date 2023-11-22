@@ -11,3 +11,7 @@
 	cmd = "code --wait --diff  "
 [pull]
 	rebase = false
+[push]
+	autoSetupRemote = true
+[init]
+	defaultBranch = main
