@@ -1,7 +1,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-# OH MY ZSH THEMES
+# OH MY ZSH THEME
 ZSH_THEME=""
 
 # PLUGINS
@@ -21,6 +21,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+# NVVM Auto load
 # place this after nvm initialization!
 autoload -U add-zsh-hook
 load-nvmrc() {
@@ -47,3 +48,9 @@ load-nvmrc
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init --path)"
 fi
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/pedrofidalgo/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/pedrofidalgo/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/pedrofidalgo/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/pedrofidalgo/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
