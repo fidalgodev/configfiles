@@ -1,2 +1,14 @@
 [line_break]
 disabled = true
+
+[line_break]
+disabled = true
+
+[gcloud]
+disabled = true
+
+[package]
+disabled = true
+
+[docker_context]
+disabled = true
