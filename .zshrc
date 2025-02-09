@@ -20,8 +20,8 @@ alias zshreload="source ~/.zshrc"
 
 # Nvm initialize
 export NVM_DIR="$HOME/.nvm"
-  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  
-  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
 
 # Bun completions
 [ -s "/Users/pedrofidalgo/.bun/_bun" ] && source "/Users/pedrofidalgo/.bun/_bun"
